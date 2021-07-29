@@ -292,17 +292,19 @@
       </div>
     </main>
     <footer>
-      <form class="f-box-wrapper">
-        <h2>Contact Me</h2>
-        <p>
+      <form action="https://formspree.io/f/mgernvdd" method="POST" class="f-box-wrapper">
+        <h2 class="contact-h2">Contact Me</h2>
+        <p class="contact-me-text">
           If you have an application you are interested in developing, 
           a feature that you need built or a project that needs coding. 
           I’d love to help with it
         </p>
 
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="email">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="text" name="name" placeholder="Type Name" required />
+          <input type="email" name="_replyto"/>
+          <textarea name="message"></textarea>
+        
+          <button type="submit" class="submit">Get In Touch</button>
       </form>
     </footer>
     <script
