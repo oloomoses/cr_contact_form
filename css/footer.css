@@ -1,0 +1,77 @@
+footer {
+  height: 846px;
+  position: relative;
+}
+
+.f-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 801px;
+  height: 577px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.contact-me-text {
+  position: static;
+  width: 569px;
+  height: 102px;
+  left: 116px;
+  top: 68px;
+  font-family: Poppins, "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact-h2 {
+  position: static;
+  width: 801px;
+  height: 56px;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+input {
+  height: 48px;
+  width: 447px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+textarea {
+  height: 170px;
+  width: 447px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  margin-top: 2em;
+  position: static;
+  width: 140px;
+  height: 48px;
+  left: 153.5px;
+  top: 347px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
